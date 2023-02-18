@@ -1,0 +1,82 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 458,
+       "width": 734,
+       "x": 0,
+       "y": 0
+    },
+    "name": "yuri@debian: ~",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Gnome\\-terminal$",
+       // "instance": "^gnome\\-terminal\\-server$",
+       // "title": "^yuri\\@debian\\:\\ \\~$",
+       // "transient_for": "^$",
+       // "window_role": "^gnome\\-terminal\\-window\\-4a2a9620\\-ab40\\-437f\\-a620\\-8a40bb21c1ba$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 458,
+               "width": 734,
+               "x": 0,
+               "y": 0
+            },
+            "name": "pi@raspberrypi: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^pi\\@raspberrypi\\:\\ \\~$",
+               // "transient_for": "^$",
+               // "window_role": "^gnome\\-terminal\\-window\\-2514c970\\-3a44\\-4972\\-8353\\-1d72a3c731a3$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 458,
+               "width": 734,
+               "x": 0,
+               "y": 0
+            },
+            "name": "yuri@debian: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^gnome\\-terminal\\-server$",
+               // "title": "^yuri\\@debian\\:\\ \\~$",
+               // "transient_for": "^$",
+               // "window_role": "^gnome\\-terminal\\-window\\-ea85104e\\-4ef8\\-4f02\\-93b6\\-a880df7ad922$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

@@ -1,0 +1,48 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 458,
+       "width": 734,
+       "x": 0,
+       "y": 0
+    },
+    "name": "yuri@debian: ~",
+    "percent": 0.4,
+    "swallows": [
+       {
+        "class": "^Gnome\\-terminal$",
+        "instance": "^gnome\\-terminal\\-server$",
+       // "title": "^yuri\\@debian\\:\\ \\~$",
+        "transient_for": "^$"
+       // "window_role": "^gnome\\-terminal\\-window\\-9f9d7169\\-644b\\-4ea2\\-bb3a\\-6313e5665154$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 290,
+       "width": 956,
+       "x": 972,
+       "y": 649
+    },
+    "name": "Chrome",
+    "percent": 0.6,
+    "swallows": [
+       {
+        "class": "^Google-chrome$",
+       // "title": "^New\\ Tab\\ \\-\\ Chrome$",
+        "transient_for": "^$",
+        "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
